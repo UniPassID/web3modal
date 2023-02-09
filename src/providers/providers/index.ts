@@ -38,7 +38,8 @@ import SequenceLogo from "../logos/sequence.svg";
 import BitkeepLogo from "../logos/bitkeepwallet.png";
 // @ts-ignore
 import StarzWalletLogo from "../logos/starzwallet.svg";
-
+// @ts-ignore
+import UniPassLogo from "../logos/unipass.svg";
 
 import { IProviderInfo } from "../../helpers";
 
@@ -234,3 +235,10 @@ export const STARZWALLET: IProviderInfo = {
   check: "isStarzWallet"
 };
 
+export const UNIPASS: IProviderInfo = {
+  id: "unipass",
+  name: "UniPass",
+  logo: UniPassLogo,
+  type: "web",
+  check: "isUniPassProvider"
+};
